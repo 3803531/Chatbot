@@ -1,8 +1,7 @@
 # -*- coding: utf-8 -*-
 """
 Created on Mon Jan 16 02:41:42 2023
-
-@author: IGUI
+ 
 
 Il existe plusieurs bibliothèques Python pour la reconnaissance vocale
  (speech-to-text). L'une des plus populaires est SpeechRecognition, qui 
