@@ -20,18 +20,18 @@ $ pip install --upgrade openai
 
 # Linux users
  
-$ export OPENAI_API_KEY="<OPENAI_API_KEY>"  
-$ pip3 install pydub
-$ pip3 install PyAudio
-$ pip3 install SpeechRecognition
+$ export OPENAI_API_KEY="<OPENAI_API_KEY>"    
+$ pip3 install pydub  
+$ pip3 install PyAudio   
+$ pip3 install SpeechRecognition  
 
 
 # Window users
 
-$ set OPENAI_API_KEY="<OPENAI_API_KEY>"  
-$ pip install pydub
-$ pip install PyAudio
-$ pip install SpeechRecognition
+$ set OPENAI_API_KEY="<OPENAI_API_KEY>"    
+$ pip install pydub  
+$ pip install PyAudio  
+$ pip install SpeechRecognition  
  
  
  
