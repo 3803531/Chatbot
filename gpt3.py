@@ -2,7 +2,7 @@
 """
 Created on Tue Jan 10 01:10:55 2023
 
-@author: shse
+ 
 """
 # On importe les bibliothèques nécessaires
 import openai
