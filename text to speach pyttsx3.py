@@ -2,7 +2,7 @@
 """
 Created on Mon Jan 16 02:38:58 2023
 
-@author: Cherif IGUI 
+  
 
 Il existe  pyttsx3, une bibliothèque qui utilise les moteurs
  de synthèse de la plateforme pour générer la synthèse vocale.
