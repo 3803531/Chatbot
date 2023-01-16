@@ -1,6 +1,6 @@
-# Chatbot
+# Learning-based modeling of non-verbal behavior between two chatbots.
 
-Learning-based modeling of non-verbal behavior between two chatbots.
+
 
 The project aims to create an animated conversational agent with a human-like appearance that can communicate with human users through voice, gestures, facial expressions, etc. The agent will be integrated into the Greta virtual agent platform, and the dialogues will be improved by adding pauses and marking new information, and the models will be trained from oral corpora. The multimodal behaviors that correspond to the generated dialogues will be calculated automatically, and the deep learning models already integrated in Greta will be enhanced to take into account a greater richness of language acts. Different language and behavior styles will be defined for each of the chatbots in the interaction. The objectives of the project are:
 
