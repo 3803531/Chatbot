@@ -11,7 +11,7 @@ import pyttsx3
 
 
 # Ajoutez votre clé API OpenAI ici
-openai.api_key = "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"
+openai.api_key = "clé API"
 
 def askGPT(text):
     response = openai.Completion.create(
