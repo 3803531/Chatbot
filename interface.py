@@ -1,8 +1,7 @@
 #!/usr/bin/env python
 # coding: utf-8
 
-# In[ ]:
-
+ 
 
 from tkinter import *
 import speech_recognition as sr
@@ -100,20 +99,4 @@ paned.pack()
 window.mainloop()
 
 
-# In[ ]:
-
-
-
-
-
-# In[6]:
-
-
-
-
-
-# In[ ]:
-
-
-
-
+ 
