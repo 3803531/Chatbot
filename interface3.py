@@ -9,7 +9,7 @@ class SpeechRecorder:
         master.title("Speech Recorder")
 
         self.recording_time = tk.StringVar()
-        self.recording_time.set("10")
+        self.recording_time.set("5")
 
         self.recorded_text = tk.StringVar()
         self.recorded_text.set("")
@@ -55,13 +55,14 @@ class SpeechRecorder:
         # Initialize the recognizer
         recognizer = sr.Recognizer()
         microphone = sr.Microphone()
-
+        
         # Adjust for ambient noise levels
-        with microphone as source:
-            recognizer.adjust_for_ambient_noise(source)
+        #with microphone as source:
+          #  recognizer.adjust_for_ambient_noise(source)
 
         # Start recording
         with microphone as source:
+           
             audio = recognizer.listen(source, timeout=int(self.recording_time.get()))
 
         # Stop recording
@@ -69,7 +70,7 @@ class SpeechRecorder:
 
         # Recognize speech
         try:
-            self.recorded_text.set(recognizer.recognize_google(audio))
+            self.recorded_text.set(recognizer.recognize_google(audio,language='fr-FR'))
             self.text_box.config(state=tk.NORMAL)
             self.text_box.insert(tk.END, self.recorded_text.get() + "\n")
             self.text_box.config(state=tk.DISABLED)
@@ -89,7 +90,7 @@ class SpeechRecorder:
         self.microphone_on = False
 
     def play_recording(self):
-        os.system("say " + self.recorded_text.get())
+         os.system("say " + self.recorded_text.get())
 
     def save_recording(self):
         with open("recording.txt", "w") as file:
