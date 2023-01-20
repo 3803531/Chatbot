@@ -41,29 +41,36 @@ Un modèle conversationnel est un système informatique conçu pour simuler une 
 humaine. Il utilise des techniques d’apprentissage automatique pour comprendre et répondre aux
 utilisateurs en utilisant le langage naturel. Les modèles conversationnels sont souvent utilisés pour
 les assistants virtuels, les chatbots et les systèmes de dialogue pour des applications telles que les
-services clients automatisés, les jeux et les outils de productivité.
+services clients automatisés, les jeux et les outils de productivité.  
+
 En tant que partie du projet, on a opté pour l’utilisation d’un modèle conversation prés entraîné
-qui a été créé par la plate-forme OpenAI et qui s’appelle "ChatGPT".[?]
+qui a été créé par la plate-forme OpenAI et qui s’appelle "ChatGPT".   
+
+
 Développé par la plate-forme OpenAI, connu sous le nom de ChatGPT. Ce modèle de traitement
 de langage naturel qui utilise des techniques d’apprentissage automatique pour générer des réponses
 à des questions posées en langage naturel. Il a été développé en utilisant le modèle Davinci-003
 de OpenAI. Le système ChatGPT a été intégré pour permettre une interaction avec un utilisateur
 humain. Lorsque l’utilisateur parle, ChatGPT génère une réponse qui est ensuite transmise à la plate-
 forme GRETA qui utilise NVBG pour associer une animation à la réponse et la jouer et prononcer
-le speech de la réponse.
+le speech de la réponse.  
+
 Il est possible de personnaliser les réponses et le dialogue en utilisant des règles de détection de
 modèle, mais il y a un risque que ChatGPT apprenne des réponses incorrectes en cas de mauvaise
 utilisation. On peut aussi laisser ChatGPT apprendre des réponses à partir des dialogues avec
 d’autres personnes, mais il y a alors un risque de ne pas contrôler les dialogues et d’aboutir à une
-mauvaise utilisation de ChatGPT.
+mauvaise utilisation de ChatGPT.  
+
 Nous avons utilisé les fonctionnalités de détection de modèle pour adapter les réponses en fonction
-des besoins spécifiques de notre projet.
+des besoins spécifiques de notre projet.  
+
 Nous avons intègre également une fonctionnalité de reconnaissance vocale qui permet de traduire
 un dialogue en texte brut. Cette fonctionnalité est utilisée pour permettre à GRETA de prendre en
 compte les phrases/mots prononcés par l’utilisateur lors des expériences. En somme, ChatGPT est
 un système de traitement de langage naturel avancé qui permet de créer une interaction humaine-
 machine en utilisant la reconnaissance vocale que nous avons rajouté ainsi que l’apprentissage auto-
-matique pour générer des réponses pertinentes.
+matique pour générer des réponses pertinentes.  
+
 Pour avoir accès a ChatGPT on a dû récupérer une clé pour pouvoir se connecter avec le Chatbot.
 En utilisant ChatGPT, nous avons pu créer une expérience interactive pour les utilisateurs qui
 permet une communication plus naturelle et fluide. Le modèle pré-entraîné de OpenAI nous a éga-
