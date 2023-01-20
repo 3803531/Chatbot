@@ -7,7 +7,7 @@ import Boundaries as bd
 import os
 
 # entrer la nouvelle clé
-openai.api_key = "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"
+openai.api_key = "la clé"
 
 fichier = open("question.txt", "w")
 fichier.write("")
