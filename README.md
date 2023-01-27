@@ -36,45 +36,15 @@ $ pip install SpeechRecognition
  
  
   
-# Modèle conversationnel
-Un modèle conversationnel est un système informatique conçu pour simuler une conversation
-humaine. Il utilise des techniques d’apprentissage automatique pour comprendre et répondre aux
-utilisateurs en utilisant le langage naturel. Les modèles conversationnels sont souvent utilisés pour
-les assistants virtuels, les chatbots et les systèmes de dialogue pour des applications telles que les
-services clients automatisés, les jeux et les outils de productivité.  
+# Conversational model
+A conversational model is a computer system designed to simulate a human conversation. It uses machine learning techniques to understand and respond to users using natural language. Conversational models are often used for virtual assistants, chatbots, and dialogue systems for applications such as automated customer service, games, and productivity tools.
 
-En tant que partie du projet, on a opté pour l’utilisation d’un modèle conversation prés entraîné
-qui a été créé par la plate-forme OpenAI et qui s’appelle "ChatGPT".   
+As part of the project, we opted to use a pre-trained conversational model created by the OpenAI platform called "ChatGPT". Developed by OpenAI, known as ChatGPT. This natural language processing model uses machine learning techniques to generate responses to questions asked in natural language. It was developed using the OpenAI Davinci-003 model. The ChatGPT system was integrated to allow interaction with a human user. When the user speaks, ChatGPT generates a response which is then transmitted to the GRETA platform which uses NVBG to associate an animation with the response and play and pronounce the speech of the response.
 
+It is possible to customize the responses and dialogue using model detection rules, but there is a risk that ChatGPT will learn incorrect responses in the case of misuse. It is also possible to let ChatGPT learn responses from dialogues with other people, but there is then a risk of not controlling the dialogues and ending up with a misuse of ChatGPT.
 
-Développé par la plate-forme OpenAI, connu sous le nom de ChatGPT. Ce modèle de traitement
-de langage naturel qui utilise des techniques d’apprentissage automatique pour générer des réponses
-à des questions posées en langage naturel. Il a été développé en utilisant le modèle Davinci-003
-de OpenAI. Le système ChatGPT a été intégré pour permettre une interaction avec un utilisateur
-humain. Lorsque l’utilisateur parle, ChatGPT génère une réponse qui est ensuite transmise à la plate-
-forme GRETA qui utilise NVBG pour associer une animation à la réponse et la jouer et prononcer
-le speech de la réponse.  
+We used the model detection features to adapt the responses to the specific needs of our project. We also integrated a speech recognition feature that allows a dialogue to be translated into raw text. This feature is used to allow GRETA to take into account the phrases/words spoken by the user during the experiments. In short, ChatGPT is an advanced natural language processing system that allows for creating a human-machine interaction using the speech recognition feature that we added as well as the machine learning to generate relevant responses.
 
-Il est possible de personnaliser les réponses et le dialogue en utilisant des règles de détection de
-modèle, mais il y a un risque que ChatGPT apprenne des réponses incorrectes en cas de mauvaise
-utilisation. On peut aussi laisser ChatGPT apprendre des réponses à partir des dialogues avec
-d’autres personnes, mais il y a alors un risque de ne pas contrôler les dialogues et d’aboutir à une
-mauvaise utilisation de ChatGPT.  
-
-Nous avons utilisé les fonctionnalités de détection de modèle pour adapter les réponses en fonction
-des besoins spécifiques de notre projet.  
-
-Nous avons intègre également une fonctionnalité de reconnaissance vocale qui permet de traduire
-un dialogue en texte brut. Cette fonctionnalité est utilisée pour permettre à GRETA de prendre en
-compte les phrases/mots prononcés par l’utilisateur lors des expériences. En somme, ChatGPT est
-un système de traitement de langage naturel avancé qui permet de créer une interaction humaine-
-machine en utilisant la reconnaissance vocale que nous avons rajouté ainsi que l’apprentissage auto-
-matique pour générer des réponses pertinentes.  
-
-Pour avoir accès a ChatGPT on a dû récupérer une clé pour pouvoir se connecter avec le Chatbot.
-En utilisant ChatGPT, nous avons pu créer une expérience interactive pour les utilisateurs qui
-permet une communication plus naturelle et fluide. Le modèle pré-entraîné de OpenAI nous a éga-
-lement permis de gagner du temps et des ressources en nous évitant de devoir entraîner un modèle
-de conversation à partir de zéro.
+To access ChatGPT, we had to retrieve a key to be able to connect to the Chatbot. Using ChatGPT, we were able to create an interactive experience for users that allows for more natural and fluid communication. The pre-trained model from OpenAI also allowed us to save time and resources by avoiding having to train a conversation model from scratch.
 
  
