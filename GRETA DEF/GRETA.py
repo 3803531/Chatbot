@@ -1,7 +1,6 @@
 #!/usr/bin/env python
 # coding: utf-8
 
-# In[ ]:
 
 
 from tkinter import *
@@ -188,3 +187,4 @@ paned.pack(padx=15, pady=10)
 #afficher
 window.mainloop()
 
+ 
