@@ -48,3 +48,5 @@ We used the model detection features to adapt the responses to the specific need
 To access ChatGPT, we had to retrieve a key to be able to connect to the Chatbot. Using ChatGPT, we were able to create an interactive experience for users that allows for more natural and fluid communication. The pre-trained model from OpenAI also allowed us to save time and resources by avoiding having to train a conversation model from scratch.
 
  
+ L'excution de progra
+ les deux  fichiers  gpt.py et interface sont les premier version ,dont le premier  sert a se comuniqquer avec le chat sous un terminal d'editeur  texte, et l autre avec une interface graphique.veuillez excuter le programme de  GRETA DEF.
