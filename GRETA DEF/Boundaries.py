@@ -183,4 +183,4 @@ def processFile(inputFile, outputFile):
 	print ("File ", outputFile," written - ", boundaryCount, "boundaries added.")
 
 if __name__ == "__main__":
-	main(sys.argv[1:])
+	main(sys.argv[1:]) 
