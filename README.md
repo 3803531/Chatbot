@@ -15,6 +15,9 @@ The project aims to create an animated conversational agent with a human-like ap
 
 
 # Installation
+
+**Greta** => https://github.com/isir/greta.git  
+
 $ pip install --upgrade openai 
 
 
