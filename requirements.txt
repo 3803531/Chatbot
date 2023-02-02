@@ -1,3 +1,0 @@
-pyaudio==0.2.13
-SpeechRecognition==3.9.0
-pydub==0.25.1
