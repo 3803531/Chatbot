@@ -66,3 +66,12 @@ To access ChatGPT, we had to retrieve a key to be able to connect to the Chatbot
  
 # Programme:
 Les fichiers gpt.py et interface.py sont les premières versions. Le premier permet de communiquer avec le chat via un terminal d'éditeur de texte, tandis que le second offre une interface graphique. Veuillez exécuter le programme de GRETA DEF.
+
+# Interface
+In order to integrate ChatGPT with Greta, we designed a graphical user interface allowing
+direct and intuitive interaction with the chatbot, without the need to use a terminal. We used
+the TKinter graphical interface in Python to create a text input area for users and a visualization area for the chatbot's
+area for viewing the chatbot's responses. This integration facilitates the sending of requests by users and the
+and viewing the answers provided by the chatbot.
+
+
