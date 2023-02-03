@@ -1,3 +1,16 @@
+# UE Projet de Fin d'Étude
+Ceci represente notre livrable pour notre Projet de Fin d'Étude : Modélisation par apprentissage du comportement verbale et non verbal d'un agent virtuel , 
+
+Membres du goupe :
+Cherif Igui
+Sara Nait Atman
+Haoyu Wang
+Enzo Lopenz
+
+
+
+
+
 # Learning-based modeling of non-verbal behavior between two chatbots.
 
 
@@ -52,4 +65,4 @@ To access ChatGPT, we had to retrieve a key to be able to connect to the Chatbot
 
  
 # Programme:
-Les fichiers gpt.py et interface sont les premières versions. Le premier permet de communiquer avec le chat via un terminal d'éditeur de texte, tandis que le second offre une interface graphique. Veuillez exécuter le programme de GRETA DEF.
+Les fichiers gpt.py et interface.py sont les premières versions. Le premier permet de communiquer avec le chat via un terminal d'éditeur de texte, tandis que le second offre une interface graphique. Veuillez exécuter le programme de GRETA DEF.
