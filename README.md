@@ -2,10 +2,10 @@
 Ceci represente notre livrable pour notre Projet de Fin d'Étude : Modélisation par apprentissage du comportement verbale et non verbal d'un agent virtuel , 
 
 Membres du goupe :
-Cherif Igui
-Sara Nait Atman
-Haoyu Wang
-Enzo Lopenz
+Cherif Igui \\
+Sara Nait Atman\\
+Haoyu Wang\\
+Enzo Lopenz\\
 
 
 
