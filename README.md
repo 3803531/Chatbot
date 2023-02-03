@@ -75,4 +75,8 @@ the TKinter graphical interface in Python to create a text input area for users 
 area for viewing the chatbot's responses. This integration facilitates the sending of requests by users and the
 and viewing the chatbot's responses.
 
+# Speech Recognition  
+We have integrated a voice recognition function to allow users to submit their requests by voice.
+This feature allows a more natural communication with the chatbot,
+by speaking directly to it. We used Google Speech Recognition for this implementation.
  
