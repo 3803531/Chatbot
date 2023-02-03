@@ -1,11 +1,11 @@
 # End of studies' project 
 This represents our deliverable for our End of Study Project: Modeling by learning the verbal and non-verbal behavior of a virtual agent.
 
-Group members :
-Cherif IGUI 
-Sara NAIT ATMAN 
-Haoyu WANG 
-Enzo LOPENZ  
+## Group members :
+**Cherif IGUI   
+Sara NAIT ATMAN     
+Haoyu WANG     
+Enzo LOPENZ**    
 
 
 
