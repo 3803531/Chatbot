@@ -75,7 +75,7 @@ the TKinter graphical interface in Python to create a text input area for users 
 area for viewing the chatbot's responses. This integration facilitates the sending of requests by users and the
 and viewing the chatbot's responses.
 
-![alt text](image_url)
+![ Interface de chatbot : une vision globale.](https://github.com/3803531/Chatbot/blob/main/wind.jpeg)
 
 
 # Speech Recognition  
