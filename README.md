@@ -73,7 +73,7 @@ In order to integrate ChatGPT with Greta, we designed a graphical user interface
 direct and intuitive interaction with the chatbot, without the need to use a terminal. We used
 the TKinter graphical interface in Python to create a text input area for users and a visualization area for the chatbot's
 area for viewing the chatbot's responses. This integration facilitates the sending of requests by users and the
-and viewing the chatbot's responses.
+  viewing the chatbot's responses.
 
 ![ Interface de chatbot : une vision globale.](https://github.com/3803531/Chatbot/blob/main/wind.jpeg)
 
